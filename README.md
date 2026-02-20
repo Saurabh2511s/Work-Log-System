@@ -1,10 +1,10 @@
-Get the Source Code
+#  Get the Source Code
 
 Clone the repository or extract the project inside your htdocs directory.
 
 cd C:\xampp\htdocs
-git clone <repository-url> worklog
-# OR extract zip and rename folder to worklog
+git clone https://github.com/Saurabh2511s/Work-Log-System.git
+OR extract zip and rename folder to worklog
 
 Then enter the project folder:
 
@@ -38,8 +38,7 @@ Application URL
 
 http://127.0.0.1:8000
 
-
-# Note : if any error occurs 
+Note : if any error occurs 
 Clear caches and retry:
 php artisan optimize:clear 
 
