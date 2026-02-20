@@ -1,19 +1,26 @@
-#  Get the Source Code
+# Work Log System (Laravel Task Assignment)
 
-Clone the repository or extract the project inside your htdocs directory.
+## Project Setup Guide
 
+Follow the steps below to run the project locally.
+
+---
+
+### 1) Get the Source Code
+
+Clone the repository inside your web server directory (XAMPP/WAMP/LAMP).
+
+```bash
 cd C:\xampp\htdocs
 git clone https://github.com/Saurabh2511s/Work-Log-System.git
-OR extract zip and rename folder to worklog
-
-Then enter the project folder:
-
-cd worklog
+cd Work-Log-System
 
 
-Configure Environment File
+### 2) Configure Environment
 
-Now update database details inside .env:
+Create and configure the environment file:
+
+Update database credentials in .env:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -23,31 +30,26 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 
-Run Migrations & Seeders
+
+### 3) Run Migrations & Seeders
+
 
 This will create tables and insert default data:
 
 php artisan migrate --seed
 
 
-Start Development Server
+### 4) Start Development Server
 
 php artisan serve
 
-Application URL
+Application URL:  http://127.0.0.1:8000
 
-http://127.0.0.1:8000
 
-Note : if any error occurs 
-Clear caches and retry:
-php artisan optimize:clear 
 
-Then 
+### 5) Troubleshooting
 
-Start Development Server
+If any error occurs during setup, clear caches and retry:
 
+php artisan optimize:clear
 php artisan serve
-
-Application URL
-
-http://127.0.0.1:8000
