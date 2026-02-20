@@ -4,13 +4,16 @@
 
 Follow the steps below to run the project locally.
 
----
+-----------------------------------------------
+
+
+```bash
+
 
 ### 1) Get the Source Code
 
 Clone the repository inside your web server directory (XAMPP/WAMP/LAMP).
 
-```bash
 cd C:\xampp\htdocs
 git clone https://github.com/Saurabh2511s/Work-Log-System.git
 cd Work-Log-System
